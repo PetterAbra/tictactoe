@@ -7,11 +7,11 @@
 
 namespace TicTac
 {
-  class machine
+  class machine //creates the class machine with the char and size of the board
   {
     char machineChar;
     int boardSize;
-  public:
+  public: //public functions
     machine(char c, int size);
     void move(boardGame *board);
   };

@@ -10,7 +10,7 @@
 namespace TicTac
 {
 
-  class ticTacToe
+  class ticTacToe //creates a machine and a way for the user to play
   {
     machine *player2;
  public:
